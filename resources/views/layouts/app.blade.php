@@ -28,23 +28,23 @@
                                 </h1>
                             </div>
                         </div>
-                        <ul class="breadcrumb breadcrumb-top">
-                            <li><a href="{{ url("home") }}"> <i class="fa fa-home"></i> </a></li>
-                            @foreach($segments =  request()->segments() as $key => $segment)
+{{--                        <ul class="breadcrumb breadcrumb-top">--}}
+{{--                            <li><a href="{{ url("home") }}"> <i class="fa fa-home"></i> </a></li>--}}
+{{--                            @foreach($segments =  request()->segments() as $key => $segment)--}}
 
 
 
-                                {{-- {{ $segment->{$segment . "/" } }}        --}}
-                                @if ($loop->last)
-                                    <li class="breadcrumb-item active"> {{$segment}} </li>
-                                @else
-                                    <li class="breadcrumb-item"> <a href="{{ url(implode(array_slice($segments, 0, $key + 1), "/")) }}"> {{ $segment }} </a> </li>
-                                @endif
+{{--                                --}}{{-- {{ $segment->{$segment . "/" } }}        --}}
+{{--                                @if ($loop->last)--}}
+{{--                                    <li class="breadcrumb-item active"> {{$segment}} </li>--}}
+{{--                                @else--}}
+{{--                                    <li class="breadcrumb-item"> <a href="{{ url(implode(array_slice($segments, 0, $key + 1), "/")) }}"> {{ $segment }} </a> </li>--}}
+{{--                                @endif--}}
 
 
-                                {{-- {{basename(request()->path())}} --}}
-                            @endforeach
-                        </ul>
+{{--                                --}}{{-- {{basename(request()->path())}} --}}
+{{--                            @endforeach--}}
+{{--                        </ul>--}}
                         <!-- END Page Header -->
 
                         <!-- Example Block -->
