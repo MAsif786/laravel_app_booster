@@ -1,0 +1,17 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+@import '~toastr/toastr';
+.switch-sm span{
+    widows: 45px;
+    height: 20px;
+}
+
+.switch-sm span:after{
+    width: 18px;
+}
