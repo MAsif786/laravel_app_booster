@@ -1,23 +1,20 @@
 # laravel_app_booster
 Boost start of Laravel application with theme setting and basic auth functionalities
 
-**Progress
+**Progress**
 
-Not enough to start work. Still in Progres.
+> Not enough to start work. Still in Progres.
 Even dashboard is not set random data showing. User Management Tab option in top navigation working
 
-**Completed
+**Completed**
 
-Usermangement User Crud and User groups Curd
+> Usermangement User Crud and User groups Curd
 
-**Start
+**Start**
+- clone repo
+- .env file configure
+- npm i
+- composer i
+- php artisan migrate --seed
 
-.env file configure
-
-npm i
-composer i
-
-php artisan migrate --seed
-
-Username: super@site.com
-Password: password
+> Username: super@site.com | Password: password
